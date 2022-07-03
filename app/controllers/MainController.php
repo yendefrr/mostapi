@@ -4,7 +4,7 @@ class MainController
 {
     public function index(): void
     {
-        echo 'Здесь будет интерактивный список разных API';
+        require_once __DIR__ . '/../../public/templates/main.php';
     }
 
     public function getApiResponse($url): void
