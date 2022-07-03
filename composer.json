@@ -1,0 +1,15 @@
+{
+  "name": "yendefr/moreapi",
+  "description": "moreAPI",
+  "license": "proprietary",
+  "autoload": {
+    "psr-0": {
+      "": [
+        "app/controllers"
+      ]
+    }
+  },
+  "require": {
+    "nikic/fast-route": "^1.3"
+  }
+}
